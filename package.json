@@ -1,0 +1,15 @@
+{
+  "name": "paaskelabyrinten",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spill.js",
+  "scripts": {
+    "start": "node spill.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.32.2"
+  }
+}
