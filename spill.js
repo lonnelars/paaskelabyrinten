@@ -19,7 +19,6 @@ rl.on("close", () => process.exit(0));
     await page.fill("#loginPassword", process.env.NRK_PASSWORD);
     await page.locator("#login-button").click();
     await page.waitForURL("https://www.nrk.no/");
-    await page.context().storageState();
   }
 
   await page.goto(
