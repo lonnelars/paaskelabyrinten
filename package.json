@@ -10,10 +10,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "playwright": "^1.32.2"
-  },
   "dependencies": {
-    "dotenv": "16.4.5"
+    "dotenv": "16.4.5",
+    "playwright": "1.42.1"
   }
 }
