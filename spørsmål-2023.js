@@ -3502,7 +3502,7 @@ const questions = [
 const answers = questions.reduce((acc, q) => {
   let answer = q.answers.find((a) => a.correct);
   if (!answer) {
-    throw "fant ikke svar for " + q._key;
+    throw new Error("fant ikke svar for " + q._key);
   }
 
   return { ...acc, [q.text]: answer.text };
